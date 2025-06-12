@@ -1,5 +1,5 @@
 import "./App.css";
-import { AuthProvider } from "auth/hooks/AuthProvider";
+import { AuthProvider, useAuth } from "@repo/auth";
 
 function App() {
   return (
